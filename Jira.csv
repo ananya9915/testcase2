@@ -1,0 +1,681 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Cloners),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field ([CHART] Date of First Response),Status Category
+Cheque Payee Name is accepting only spaces,RN-227,10283,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 1:18 PM,08/Sep/21 5:59 PM,09/Sep/21 5:05 AM,,,0,"Cheque payee name field is accepting only spaces
+
+Steps to reproduce.
+
+# Go to Affiliate Page
+# Click on add button
+# Go to the payment section
+# Verify the cheque payee field.
+
+Expected Result:
+Cheque payee name should have some value other than spaces
+
+Actual Result:
+Cheque payee name is accepting only spaces
+
+
+
+!image-20210908-131956.png|width=451,height=81!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-124,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 1:20 PM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-131956.png;https://corporateola1516.atlassian.net/secure/attachment/10029/image-20210908-131956.png,,,,,,{},,,,,,,0|i001mf:,,RN Sprint 1,,,,,,,,To Do
+SWIFT code length is more than 11 digits,RN-226,10282,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 1:15 PM,08/Sep/21 1:22 PM,08/Sep/21 1:22 PM,,,0,"Swift code length is more than 11
+Steps to reproduce.
+
+# Go to Affiliate Page
+# Click on add button
+# Go to the payment section
+# Verify the swift code field.
+
+Expected Result:
+Swift code field is must be of 11 characters
+
+Actual Result:
+Swift code field is accepting more than 11 characters
+
+
+
+!image-20210908-131645.png|width=480,height=63!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 1:16 PM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-131645.png;https://corporateola1516.atlassian.net/secure/attachment/10028/image-20210908-131645.png,,,,,,{},,,,,,,0|i001m7:,,RN Sprint 1,,,,,,,,To Do
+SWIFT code is not mandatory,RN-225,10281,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 1:10 PM,08/Sep/21 1:14 PM,08/Sep/21 1:17 PM,,,0,"SWIFT code is not mandatory
+
+Steps to reproduce
+
+# Go to Affiliate Page
+# Click on add button
+# Go to the payment section
+# Verify the swift code field.
+
+Expected Result:
+Swift code field must be mandatory
+
+Actual Result:
+Swift code field is not mandatory.
+
+!image-20210908-131217.png|width=698,height=78!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 1:13 PM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-131217.png;https://corporateola1516.atlassian.net/secure/attachment/10027/image-20210908-131217.png,,,,,,{},,,,,,,0|i001lz:,,RN Sprint 1,,,,,,,,To Do
+Branch Number field is accepting alphabetic characters,RN-224,10280,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 11:42 AM,08/Sep/21 5:58 PM,08/Sep/21 5:58 PM,,,0,"Branch Number field is accepting alphabetic characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# Go to payment tab
+# verify the branch number field
+
+Expected result:
+Branch number field should not accept alphabetic characters
+5.5
+
+Actual Result:
+commission field is accepting special characters
+ABCDEFGH
+
+!image-20210908-114711.png|width=797,height=73!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 11:47 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-114711.png;https://corporateola1516.atlassian.net/secure/attachment/10026/image-20210908-114711.png,,,,,,{},,,,,,,0|i001lr:,,RN Sprint 1,,,,,,,,To Do
+Branch Number field is accepting special characters,RN-223,10279,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 11:36 AM,08/Sep/21 5:58 PM,08/Sep/21 5:58 PM,,,0,"Branch Number field is accepting special characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# Go to payment tab
+# verify the branch number field
+
+Expected result:
+Branch Number field should not accept special characters except dot(.)
+2231
+
+Actual Result:
+Branch Number field is accepting special characters
+@#.$$
+
+!image-20210908-113858.png|width=806,height=69!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 11:40 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-113858.png;https://corporateola1516.atlassian.net/secure/attachment/10025/image-20210908-113858.png,,,,,,{},,,,,,,0|i001lj:,,RN Sprint 1,,,,,,,,To Do
+Tax field is accepting special characters,RN-222,10278,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 11:26 AM,08/Sep/21 5:58 PM,08/Sep/21 5:58 PM,,,0,"Tax field is accepting special characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# Go to payment tab
+# verify the tax field
+
+Expected result:
+Tax field should not accept special characters except dot(.)
+5.5
+
+Actual Result:
+Tax field is accepting special characters
+@#.$$
+
+!image-20210908-112948.png|width=806,height=70!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 11:29 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-112948.png;https://corporateola1516.atlassian.net/secure/attachment/10024/image-20210908-112948.png,,,,,,{},,,,,,,0|i001lb:,,RN Sprint 1,,,,,,,,To Do
+Commission field is accepting special characters excepts(.),RN-221,10277,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:56 AM,08/Sep/21 11:24 AM,08/Sep/21 1:27 PM,,,0,"Commission field is accepting special characters excepts(.)
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# Go to payment tab
+# verify the commission field
+
+Expected result:
+commission field should not accept special characters except dot(.)
+5.5
+
+Actual Result:
+commission field is accepting special characters
+@#.$$
+
+!image-20210908-105835.png|width=686,height=70!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:59 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-105835.png;https://corporateola1516.atlassian.net/secure/attachment/10023/image-20210908-105835.png,,,,,,{},,,,,,,0|i001l3:,,RN Sprint 1,,,,,,,,To Do
+Commission field is accepting alphabets,RN-220,10276,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:49 AM,08/Sep/21 11:23 AM,08/Sep/21 11:23 AM,,,0,"Commission field is accepting alphabets
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# Go to payment tab
+# verify the commission field
+
+Expected result:
+commission field should not accept alphabets
+5.5
+
+Actual Result:
+commission field is accepting alphabets
+WE.S
+
+!image-20210908-105124.png|width=750,height=70!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:51 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-105124.png;https://corporateola1516.atlassian.net/secure/attachment/10022/image-20210908-105124.png,,,,,,{},,,,,,,0|i001kv:,,RN Sprint 1,,,,,,,,To Do
+Commission is accepting more than one dots(...),RN-219,10275,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:42 AM,08/Sep/21 10:47 AM,08/Sep/21 5:55 PM,,,0,"Commission is accepting more than one dots(...)
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# Go to payment tab
+# verify the commission field
+
+Expected result:
+commission field should accept proper value
+5.5
+
+Actual Result:
+commission field is not accepting proper value
+5...5.5
+
+!image-20210908-104534.png|width=678,height=78!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:45 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-104534.png;https://corporateola1516.atlassian.net/secure/attachment/10021/image-20210908-104534.png,,,,,,{},,,,,,,0|i001kn:,,RN Sprint 1,,,,,,,,To Do
+Postcode is accepting more than 5 or 6 digits,RN-218,10274,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:24 AM,08/Sep/21 10:27 AM,08/Sep/21 10:38 AM,,,0,"Postcode is accepting more than 5 or 6 digits
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the post code field
+
+Expected result:
+postcode field should accept 5-6 digits
+789456 / 78523
+
+Actual Result:
+city field is accepting more than 5 - 6 digits
+796452131
+
+
+
+!image-20210908-102649.png|width=727,height=81!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:27 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-102649.png;https://corporateola1516.atlassian.net/secure/attachment/10020/image-20210908-102649.png,,,,,,{},,,,,,,0|i001kf:,,RN Sprint 1,,,,,,,,To Do
+City field is accepting special  characters,RN-217,10273,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:20 AM,08/Sep/21 10:23 AM,09/Sep/21 5:08 AM,,,0,"City field is accepting special  characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the city field
+
+Expected result:
+city field should accept only alphanumeric character
+Haryana-1
+
+Actual Result:
+city field is accepting only special character
+@#$%^&*
+
+
+
+
+
+!image-20210908-102221.png|width=522,height=59!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-94,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:22 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-102221.png;https://corporateola1516.atlassian.net/secure/attachment/10019/image-20210908-102221.png,,,,,,{},,,,,,,0|i001k7:,,RN Sprint 1,,,,,,,,To Do
+Website should have proper url,RN-216,10272,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:17 AM,08/Sep/21 10:19 AM,09/Sep/21 5:08 AM,,,0,"Website should have proper url
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the website field
+
+Expected result:
+website field should have proper url
+[http://www.google.com|http://www.google.com|smart-link]  / [http://google.com|http://google.com|smart-link]  / [http://google.in|http://google.in|smart-link] 
+
+Actual Result:
+afmfhxgt
+
+
+
+!image-20210908-101858.png|width=436,height=75!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:19 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-101858.png;https://corporateola1516.atlassian.net/secure/attachment/10018/image-20210908-101858.png,,,,,,{},,,,,,,0|i001jz:,,RN Sprint 1,,,,,,,,To Do
+Fax field is accepting alphabetic characters,RN-215,10271,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:13 AM,08/Sep/21 10:15 AM,09/Sep/21 5:08 AM,,,0,"Fax field is accepting alphabetic characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the fax field
+
+Expected result:
+Fax field should accept only digits
+78945612377
+
+Actual Result:
+Fax field is accepting alphabets
+SDFGHJKDFGH
+
+
+
+!image-20210908-101429.png|width=423,height=58!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:14 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-101429.png;https://corporateola1516.atlassian.net/secure/attachment/10017/image-20210908-101429.png,,,,,,{},,,,,,,0|i001jr:,,RN Sprint 1,,,,,,,,To Do
+Fax field is accepting special characters,RN-214,10270,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:09 AM,08/Sep/21 10:12 AM,09/Sep/21 5:08 AM,,,0,"Fax field is accepting special characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the fax field
+
+Expected result:
+Fax field should accept only digits
+78945612377
+
+Actual Result:
+Fax field is accepting special characters
+@#$%^&*$%^
+
+!image-20210908-101106.png|width=290,height=60!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-58,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:11 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-101106.png;https://corporateola1516.atlassian.net/secure/attachment/10016/image-20210908-101106.png,,,,,,{},,,,,,,0|i001jj:,,RN Sprint 1,,,,,,,,To Do
+Fax is accepting more than 11 digits,RN-213,10269,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 10:05 AM,08/Sep/21 10:08 AM,09/Sep/21 5:08 AM,,,0,"Fax is accepting more than 11 digits
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the fax field
+
+Expected result:
+Fax field should not accept more than 11 digits
+78945612377
+
+Actual Result:
+Fax field is accepting more than 11 digits
+123456789009876543
+
+
+
+!image-20210908-100741.png|width=502,height=68!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:07 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-100741.png;https://corporateola1516.atlassian.net/secure/attachment/10015/image-20210908-100741.png,,,,,,{},,,,,,,0|i001jb:,,RN Sprint 1,,,,,,,,To Do
+Telephone number is accepting special characters,RN-212,10268,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 9:58 AM,08/Sep/21 5:59 PM,08/Sep/21 5:59 PM,,,0,"Telephone number is accepting special characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the telephone field
+
+Expected result:
+Telephone should accept only numbers
+7894561230
+
+Actual Result:
+Telephone field should not accept special characters
+\!@#$%^&*
+
+!image-20210908-095950.png|width=427,height=72!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 9:59 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-095950.png;https://corporateola1516.atlassian.net/secure/attachment/10013/image-20210908-095950.png,,,,,,{},,,,,,,0|i001j3:,,RN Sprint 1,,,,,,,,To Do
+Postcode is accepting alphabets and special characters,RN-211,10267,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 9:52 AM,08/Sep/21 9:56 AM,09/Sep/21 5:08 AM,,,0,"h1. Postcode is accepting alphabets and special characters
+
+Steps to Reproduce:
+
+# Go to affiliate page
+# click on add icon
+# verify the postcode option
+
+Expected result:
+712369
+
+Actual Result:
+QED$%^
+
+!image-20210908-095514.png|width=409,height=79!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 9:55 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-095514.png;https://corporateola1516.atlassian.net/secure/attachment/10012/image-20210908-095514.png,,,,,,{},,,,,,,0|i001iv:,,RN Sprint 1,,,,,,,,To Do
+Telephone number is accepting alphabets,RN-210,10266,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 9:33 AM,08/Sep/21 5:59 PM,08/Sep/21 5:59 PM,,,0,"Telephone number is accepting alphabets.
+
+Steps to reproduce:
+
+# Go to affiliate page
+# click on add icon 
+# verify the telephone field
+
+Expected result:
+
+Telephone no. should accept numeric data.
+
+1234567890
+
+actual result:
+
+Telephone number is accepting alphabets.
+
+AQWERTY
+
+
+
+!image-20210908-100307.png|width=363,height=63!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 10:03 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-100307.png;https://corporateola1516.atlassian.net/secure/attachment/10014/image-20210908-100307.png,,,,,,{},,,,,,,0|i001in:,,RN Sprint 1,,,,,,,,To Do
+Email field is accepting only special characters,RN-209,10265,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,08/Sep/21 9:31 AM,08/Sep/21 9:50 AM,08/Sep/21 1:29 PM,,,0,"Email field is accepting only special characters
+
+Steps to reproduce
+
+# go to affiliate page
+# click on add icon
+# verify the email field
+
+Expected result:
+
+[ananyaghosal456_gsa@gmail.com|mailto:ananyaghosal456_gsa@gmail.com]
+
+actual result: 
+
+@#$%@gmail.c
+
+!image-20210908-094225.png|width=814,height=71!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Sep/21 9:45 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210908-094225.png;https://corporateola1516.atlassian.net/secure/attachment/10010/image-20210908-094225.png,,,,,,{},,,,,,,0|i001i3:,,RN Sprint 1,,,,,,,,To Do
+Verify the default tracking code is able to change or not by admin,RN-208,10264,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 3:21 PM,07/Sep/21 3:30 PM,08/Sep/21 5:53 PM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001i7:,,RN Sprint 1,,,,,,,,Done
+Verify that postcode field is mandatory or not,RN-207,10263,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 11:17 AM,08/Sep/21 1:35 PM,08/Sep/21 1:35 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001hz:,,RN Sprint 1,,,,,,,,In Progress
+Verify that cheque payee name field with special characters,RN-206,10262,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 11:10 AM,08/Sep/21 1:35 PM,08/Sep/21 1:35 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001hr:,,RN Sprint 1,,,,,,,,In Progress
+Verify that account name field with special characters,RN-205,10261,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 11:06 AM,08/Sep/21 1:35 PM,09/Sep/21 5:01 AM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001hj:,,RN Sprint 1,,,,,,,,In Progress
+Verify that the columns name is there or not,RN-204,10260,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 10:05 AM,07/Sep/21 5:39 PM,09/Sep/21 5:08 AM,07/Sep/21 5:39 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001hb:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to fetch the data properly under respective column",RN-203,10259,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 10:04 AM,07/Sep/21 5:40 PM,09/Sep/21 4:44 AM,07/Sep/21 5:40 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001h3:,,RN Sprint 1,,,,,,,,Done
+Telephone field is accepting more than 13 digits and special characters,RN-202,10258,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 6:54 AM,08/Sep/21 5:59 PM,08/Sep/21 5:59 PM,,,0,"h1. Telephone field is accepting more than 13 digits and special characters
+
+steps to reproduce:
+
+# Go to affiliate 
+# click on add new user
+# verify the telephone number field
+
+Expected Result:
+
+Telephone field should accept number with 10 to 13 digits and + symbol
+
+03213569852
+
+Actual Result:
+
+Telephone field is accepting more than 13 characters and special characters.
+
+QWERFGH458
+
+!image-20210907-065747.png|width=766,height=163!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-21,RN-48,,RN-48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,07/Sep/21 6:59 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210907-065747.png;https://corporateola1516.atlassian.net/secure/attachment/10009/image-20210907-065747.png,,,,,,{},,RN-1,,,,,0|i001gv:,,RN Sprint 1,,,,,,,,To Do
+Account name is accepting special characters,RN-201,10257,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 6:32 AM,08/Sep/21 1:24 PM,09/Sep/21 5:08 AM,,,0,"h1. Account name is accepting special characters
+
+Steps to reproduce
+
+# Go to affiliates 
+# Click on add new user
+# Go to payment tab
+# Verify the account name in the bank transfer option.
+
+Expected Result:
+
+Account name field should not accept  special characters . Can only accept alphanumeric characters.
+
+Actual Result:
+
+Account name field is accepting special characters.
+
+!image-20210907-063521.png|width=539,height=104!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-109,RN-205,,RN-205,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,07/Sep/21 6:35 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210907-063521.png;https://corporateola1516.atlassian.net/secure/attachment/10008/image-20210907-063521.png,,,,,,{},,RN-1,,,,,0|i001gn:,,RN Sprint 1,,,,,,,,To Do
+Cheque Payee Name is accepting Special characters,RN-200,10256,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 6:24 AM,08/Sep/21 1:24 PM,09/Sep/21 5:08 AM,,,0,"h1. Cheque Payee Name is accepting Special characters
+
+Steps to reproduce
+
+# Go to affiliates 
+# click on add new user
+# go to payment section
+# verify the cheque payee field
+
+
+
+Expected Result:
+
+Ananya Ghosal
+
+Actual Result
+
+ASD$%123
+
+
+
+!image-20210907-063013.png|width=529,height=227!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-109,RN-206,,RN-206,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,07/Sep/21 6:30 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210907-063013.png;https://corporateola1516.atlassian.net/secure/attachment/10007/image-20210907-063013.png,,,,,,{},,RN-1,,,,,0|i001gf:,,RN Sprint 1,,,,,,,,To Do
+Account  number is accepting special characters and alphabets,RN-199,10255,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,07/Sep/21 6:18 AM,08/Sep/21 1:24 PM,09/Sep/21 5:08 AM,,,0,"Account  number is accepting special characters and alphabets
+
+Steps to Reproduce:
+
+# Go to application
+# Go to add user
+# Go to payment tab
+# Verify the bank transfer option and corresponding field.
+
+Expected Result:
+
+Account number should be accepting only numeric characters.
+
+1234567
+
+Actual Result:
+
+Account number field is accepting special characters and alphabets.
+
+ASDF\!@#
+
+
+
+!image-20210907-062300.png|width=515,height=564!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-148,RN-109,,RN-148,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,07/Sep/21 6:23 AM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210907-062300.png;https://corporateola1516.atlassian.net/secure/attachment/10006/image-20210907-062300.png,,,,,,{},,RN-1,,,,,0|i001g7:,,RN Sprint 1,,,,,,,,To Do
+Last Name is accepting Special Characters,RN-198,10254,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:53 PM,08/Sep/21 1:24 PM,09/Sep/21 5:08 AM,,,0,"Last Name is accepting special characters.
+Steps to produce
+1. Go to affiliate page
+2. Click Add option
+3. Verify the name field option
+
+Expected Result:
+
+Last name field should accept only alphabets.
+
+Ghosal
+
+Actual Result:
+
+Last name field is  accepting special characters and numbers.
+
+AVHG%^&%123
+
+!image-20210906-175352.png|width=785,height=75!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-34,RN-21,,RN-34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,06/Sep/21 5:54 PM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210906-175352.png;https://corporateola1516.atlassian.net/secure/attachment/10005/image-20210906-175352.png,,,,,,{},,RN-1,,,,,0|i001fz:,,RN Sprint 1,,,,,,,,To Do
+First Name is accepting special characters.,RN-197,10253,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:48 PM,08/Sep/21 6:00 PM,09/Sep/21 4:57 AM,,,0,"h4. Name is accepting special characters.
+
+h4. Steps to produce
+
+# Go to affiliate page
+# Click Add option
+# Verify the name field option
+
+Expected Result:
+
+First name field should accept only alphabetic characters.
+
+Ananya
+
+Actual Result:
+
+First name field is accepting special characters and numbers.
+
+AVHG%^&%123
+
+
+
+!image-20210906-175101.png|width=773,height=76!",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-21,,,RN-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,06/Sep/21 5:51 PM;ug:1426f709-0eb6-4ef6-9193-80072034154a;image-20210906-175101.png;https://corporateola1516.atlassian.net/secure/attachment/10003/image-20210906-175101.png,,,,,,{},,RN-1,,,,,0|i001fr:,,RN Sprint 1,,,,,,,,To Do
+PostCode should be mandatory,RN-196,10252,Bug,To Do,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,High,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 4:04 PM,08/Sep/21 1:24 PM,08/Sep/21 1:08 PM,,,0,"Postcode field should be mandatory
+
+
+1. Go to Affiliate Page
+2. Click on add button
+3. Go to the address section
+4. Verify the postcode field.
+
+Expected Result:
+Post Code field should be mandatory, minimum length must be 5 and max is 6 and should accept numeric data.
+
+Actual Result:
+Post code is not mandatory. Its accepting alphanumeric character and the length is not within desired length.",,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-21,RN-207,,RN-100,RN-207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,06/Sep/21 4:04 PM;ug:1426f709-0eb6-4ef6-9193-80072034154a;qerf.JPG;https://corporateola1516.atlassian.net/secure/attachment/10002/qerf.JPG,,,,,,{},,RN-1,,,,,0|i001fj:,,RN Sprint 1,,,,,,,,To Do
+Verify that Affiliate Name label in the table header is showing properly,RN-195,10251,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 2:49 PM,07/Sep/21 5:38 PM,09/Sep/21 5:08 AM,07/Sep/21 5:38 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:zi,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to see the filtered result in the result table.",RN-194,10250,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 2:43 PM,07/Sep/21 5:38 PM,09/Sep/21 5:08 AM,07/Sep/21 5:38 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001fa:r,,RN Sprint 1,,,,,,,,Done
+Verify that multiple checkbox is able select  or not,RN-193,10249,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:50 AM,07/Sep/21 5:37 PM,09/Sep/21 5:08 AM,07/Sep/21 5:37 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001fa:i,,RN Sprint 1,,,,,,,,Done
+Verify that the checkbox is clickable or  not,RN-192,10248,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:46 AM,07/Sep/21 5:37 PM,09/Sep/21 5:08 AM,07/Sep/21 5:37 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001fa:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to select an user using checkbox from the result area",RN-191,10247,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:37 AM,07/Sep/21 5:38 PM,09/Sep/21 5:08 AM,07/Sep/21 5:38 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,RN-192,RN-193,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001f9:,,RN Sprint 1,,,,,,,,Done
+Verify that after deleting user a proper message is coming.,RN-190,10246,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:32 AM,07/Sep/21 5:36 PM,09/Sep/21 5:08 AM,07/Sep/21 5:36 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-189,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:z,,RN Sprint 1,,,,,,,,Done
+Verify that a confirmation message is coming after clicking the delete button,RN-189,10245,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:30 AM,07/Sep/21 5:36 PM,09/Sep/21 5:08 AM,07/Sep/21 5:36 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-188,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:y,,RN Sprint 1,,,,,,,,Done
+Verify that the deleted user is not present in the user list,RN-188,10244,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:27 AM,07/Sep/21 5:36 PM,09/Sep/21 5:08 AM,07/Sep/21 5:36 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-187,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:x,,RN Sprint 1,,,,,,,,Done
+Verify that the delete button is deleting the selected records,RN-187,10243,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:26 AM,07/Sep/21 5:36 PM,09/Sep/21 5:08 AM,07/Sep/21 5:36 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-186,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:v,,RN Sprint 1,,,,,,,,Done
+Verify that the delete button is clickable or not,RN-186,10242,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:24 AM,07/Sep/21 5:36 PM,09/Sep/21 5:08 AM,07/Sep/21 5:36 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:r,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to delete an existing user from the user list",RN-185,10241,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:23 AM,07/Sep/21 5:37 PM,09/Sep/21 5:08 AM,07/Sep/21 5:37 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-186,RN-187,RN-188,RN-189,RN-190,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001f7:,,RN Sprint 1,,,,,,,,Done
+Verify the email field with .(dot) symbol,RN-184,10240,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:08 AM,07/Sep/21 5:35 PM,09/Sep/21 5:08 AM,07/Sep/21 5:35 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-183,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:i,,RN Sprint 1,,,,,,,,Done
+Verify the email field with alphanumeric data,RN-183,10239,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 11:04 AM,07/Sep/21 5:35 PM,09/Sep/21 5:08 AM,07/Sep/21 5:35 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ee:,,RN Sprint 1,,,,,,,,Done
+Verify that date field is able to accept text.,RN-182,10238,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 10:56 AM,07/Sep/21 5:33 PM,09/Sep/21 5:08 AM,07/Sep/21 5:33 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001ed:,,RN Sprint 1,,,,,,,,Done
+Verify that Affiliate  name field with spaces,RN-181,10237,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 10:42 AM,07/Sep/21 5:26 PM,09/Sep/21 5:08 AM,07/Sep/21 5:26 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001eb:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to search an user by Approved using filter functionality",RN-180,10236,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 10:01 AM,07/Sep/21 5:38 PM,09/Sep/21 5:08 AM,07/Sep/21 5:38 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-15,RN-16,RN-17,RN-18,RN-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001fb:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to search an user by Email using filter functionality",RN-179,10235,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:57 AM,07/Sep/21 5:36 PM,09/Sep/21 5:08 AM,07/Sep/21 5:36 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-12,RN-13,RN-18,RN-19,RN-20,RN-183,RN-184,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001f3:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to search an user by date using filter functionality",RN-178,10234,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:52 AM,07/Sep/21 5:35 PM,09/Sep/21 5:08 AM,07/Sep/21 5:35 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-9,RN-10,RN-11,RN-18,RN-19,RN-182,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001ev:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to search an user by its status using filter functionality",RN-177,10233,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:49 AM,07/Sep/21 5:27 PM,09/Sep/21 5:08 AM,07/Sep/21 5:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-6,RN-7,RN-8,RN-18,RN-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001en:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to search an user by its name using the filter functionality",RN-176,10232,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:43 AM,07/Sep/21 5:27 PM,09/Sep/21 5:08 AM,07/Sep/21 5:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-3,RN-5,RN-18,RN-19,RN-181,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001ef:,,RN Sprint 1,,,,,,,,Done
+Verify that the State/Region field is editable or not,RN-175,10231,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:33 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-174,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001e7:,,RN Sprint 1,,,,,,,,Done
+Verify that the Country field is editable or not,RN-174,10230,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:32 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-173,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001dz:,,RN Sprint 1,,,,,,,,Done
+Verify that the Postcode field is editable or not,RN-173,10229,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:31 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-172,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001dr:,,RN Sprint 1,,,,,,,,Done
+Verify that the City field is editable or not,RN-172,10228,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:30 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-171,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001dj:,,RN Sprint 1,,,,,,,,Done
+Verify that the Address 2 field is editable or not,RN-171,10227,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:29 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-170,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001db:,,RN Sprint 1,,,,,,,,Done
+Verify that the Address 1 field is editable or not,RN-170,10226,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:28 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-169,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001d3:,,RN Sprint 1,,,,,,,,Done
+Verify that the Website field is editable or not,RN-169,10225,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:27 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-168,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001cv:,,RN Sprint 1,,,,,,,,Done
+Verify that the Company field is editable or not,RN-168,10224,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:26 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-167,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001cn:,,RN Sprint 1,,,,,,,,Done
+Verify that the Status field is editable or not,RN-167,10223,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:26 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-166,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001cf:,,RN Sprint 1,,,,,,,,Done
+Verify that the Confirm Password field is editable or not,RN-166,10222,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:24 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-165,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001c7:,,RN Sprint 1,,,,,,,,Done
+Verify that the Password field is editable or not,RN-165,10221,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:23 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-164,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001bz:,,RN Sprint 1,,,,,,,,Done
+Verify that the Tracking Code field is editable or not,RN-164,10220,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:20 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-163,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001br:,,RN Sprint 1,,,,,,,,Done
+Verify that the Fax field is editable or not,RN-163,10219,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:18 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-162,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001bj:,,RN Sprint 1,,,,,,,,Done
+Verify that the Telephone field is editable or not,RN-162,10218,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:16 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-161,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001bb:,,RN Sprint 1,,,,,,,,Done
+Verify that the Email field is editable or not,RN-161,10217,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:15 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-160,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001b3:,,RN Sprint 1,,,,,,,,Done
+Verify that the last name field is editable or not,RN-160,10216,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:08 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-159,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001av:,,RN Sprint 1,,,,,,,,Done
+Verify that the first name field is editable or not,RN-159,10215,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 9:04 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-158,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001an:,,RN Sprint 1,,,,,,,,Done
+Verify that the edit button is enable or not,RN-158,10214,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 8:54 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i001af:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to edit the details of an existing users ",RN-157,10213,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 7:31 AM,07/Sep/21 5:25 PM,09/Sep/21 5:08 AM,07/Sep/21 5:25 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-170,RN-171,RN-172,RN-173,RN-174,RN-175,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i001a7:,,RN Sprint 1,,,,,,,,Done
+Verify that the approve button is disable after approved by the admin,RN-156,10212,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 7:11 AM,07/Sep/21 5:23 PM,09/Sep/21 5:08 AM,07/Sep/21 5:23 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-155,RN-153,RN-154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0019z:,,RN Sprint 1,,,,,,,,Done
+Verify that a proper success message is coming or not,RN-155,10211,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 7:04 AM,07/Sep/21 5:23 PM,09/Sep/21 5:08 AM,07/Sep/21 5:23 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-154,RN-153,RN-154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0019h:,,RN Sprint 1,,,,,,,,Done
+Verify that approve button is clickable or not,RN-154,10210,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 6:44 AM,07/Sep/21 5:22 PM,09/Sep/21 5:08 AM,07/Sep/21 5:22 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-153,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0019g:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to use the Approve functionality to approve a new user",RN-153,10209,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 6:43 AM,07/Sep/21 5:22 PM,09/Sep/21 5:08 AM,07/Sep/21 5:22 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i0019f:,,RN Sprint 1,,,,,,,,Done
+Verify the Account name field is mandatory or not,RN-152,10208,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 6:12 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00193:,,RN Sprint 1,,,,,,,,Done
+Verify the Account name field with alphanumeric data,RN-151,10207,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 6:06 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-150,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0018v:,,RN Sprint 1,,,,,,,,Done
+Verify the Account name field is enable or not,RN-150,10206,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 6:04 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-149,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0018n:,,RN Sprint 1,,,,,,,,Done
+Verify the Account number field is mandatory,RN-149,10205,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 6:02 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-148,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0018f:,,RN Sprint 1,,,,,,,,Done
+Verify the Account number field with alphabetic data and special characters,RN-148,10204,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:53 AM,08/Sep/21 1:35 PM,08/Sep/21 1:34 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00187:,,RN Sprint 1,,,,,,,,In Progress
+Verify the Account number field with Numeric data,RN-147,10203,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:51 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0017z:,,RN Sprint 1,,,,,,,,Done
+Verify the Account number field is enable or not,RN-146,10202,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:50 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0017r:,,RN Sprint 1,,,,,,,,Done
+Verify the SWIFT code field must be mandatory,RN-145,10201,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:40 AM,08/Sep/21 1:34 PM,08/Sep/21 1:34 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0017j:,,RN Sprint 1,,,,,,,,In Progress
+Verify the SWIFT code field with characters range from 8 to 11.,RN-144,10200,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:32 AM,08/Sep/21 1:34 PM,08/Sep/21 1:34 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0017b:,,RN Sprint 1,,,,,,,,In Progress
+Verify the SWIFT code field with alpha numeric character,RN-143,10199,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:27 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-142,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00173:,,RN Sprint 1,,,,,,,,Done
+Verify the SWIFT code field is enable or not.,RN-142,10198,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:26 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0016v:,,RN Sprint 1,,,,,,,,Done
+Verify  the Branch Number field with special characters,RN-141,10197,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:22 AM,08/Sep/21 1:34 PM,08/Sep/21 1:33 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0016n:,,RN Sprint 1,,,,,,,,In Progress
+Verify  the Branch Number field with alphabetic data,RN-140,10196,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:17 AM,08/Sep/21 1:33 PM,08/Sep/21 1:33 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0016f:,,RN Sprint 1,,,,,,,,In Progress
+Verify  the Branch Number field with numeric data,RN-139,10195,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:15 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00167:,,RN Sprint 1,,,,,,,,Done
+Verify  the Branch Number field is enable or not,RN-138,10194,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:13 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0015z:,,RN Sprint 1,,,,,,,,Done
+Verify  the bank name field with alphanumeric data,RN-137,10193,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:09 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0015r:,,RN Sprint 1,,,,,,,,Done
+Verify  the bank name field is enable or not,RN-136,10192,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:07 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0015j:,,RN Sprint 1,,,,,,,,Done
+Verify  the bank name field is coming when bank transfer is selected in the payment method.,RN-135,10191,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,06/Sep/21 5:04 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0015b:,,RN Sprint 1,,,,,,,,Done
+Verify  the paypal email account field with spaces,RN-134,10190,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 9:10 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00153:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the paypal email account field is blank,RN-133,10189,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 9:08 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0014v:,,RN Sprint 1,,,,,,,,Done
+Verify that PayPal email account field with dot(.) symbol,RN-132,10188,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 9:06 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0014n:,,RN Sprint 1,,,,,,,,Done
+Verify that PayPal email account field with @ symbol,RN-131,10187,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 9:03 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0014f:,,RN Sprint 1,,,,,,,,Done
+Verify that PayPal email account field with alphanumeric characters,RN-130,10186,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 9:01 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-129,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00147:,,RN Sprint 1,,,,,,,,Done
+Verify that PayPal email account field is enable or not,RN-129,10185,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 8:59 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-128,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0013z:,,RN Sprint 1,,,,,,,,Done
+Verify that PayPal email account field is coming or not when paypal is selected as an option in the payment method list,RN-128,10184,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 8:56 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0013r:,,RN Sprint 1,,,,,,,,Done
+Verify that cheque payee name field with alphanumeric data,RN-126,10182,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 7:12 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-125,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0013b:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the cheque payee name field is blank,RN-125,10181,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,05/Sep/21 7:09 AM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-124,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00133:,,RN Sprint 1,,,,,,,,Done
+Verify that cheque payee name field with spaces,RN-124,10180,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 7:15 PM,08/Sep/21 1:36 PM,08/Sep/21 1:36 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-123,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0012v:,,RN Sprint 1,,,,,,,,In Progress
+Verify that cheque payee name field is enable or not,RN-123,10179,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 7:13 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-122,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0012n:,,RN Sprint 1,,,,,,,,Done
+Verify that cheque payee name field is coming when cheque is selected in the payment method.,RN-122,10178,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 7:10 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-121,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0012f:,,RN Sprint 1,,,,,,,,Done
+Verify that only one option is selectable at a time or not,RN-121,10177,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 7:06 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00127:,,RN Sprint 1,,,,,,,,Done
+Verify that options are correct in the the payment method field.,RN-120,10176,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 7:04 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-119,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0011z:,,RN Sprint 1,,,,,,,,Done
+Verify that payment method field is active or not,RN-119,10175,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 7:00 PM,07/Sep/21 4:04 PM,08/Sep/21 10:43 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0011r:,,RN Sprint 1,,,,,,,,Done
+Verify that tax id field with special characters,RN-118,10174,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:59 PM,08/Sep/21 1:33 PM,08/Sep/21 1:33 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0011j:,,RN Sprint 1,,,,,,,,In Progress
+Verify that tax id field is accepting alphanumeric value,RN-117,10173,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:56 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-116,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0011b:,,RN Sprint 1,,,,,,,,Done
+Verify that tax id field is enable or not,RN-116,10172,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:54 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00113:,,RN Sprint 1,,,,,,,,Done
+Verify that commission field is not accepting only one .(dot),RN-115,10171,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:48 PM,08/Sep/21 1:32 PM,08/Sep/21 1:32 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0010v:,,RN Sprint 1,,,,,,,,In Progress
+Verify that commission field is not accepting special characters except .(dot),RN-114,10170,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:45 PM,08/Sep/21 1:33 PM,08/Sep/21 1:33 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0010n:,,RN Sprint 1,,,,,,,,In Progress
+Verify that commission field is not accepting alphabets,RN-113,10169,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:44 PM,08/Sep/21 1:33 PM,08/Sep/21 1:33 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0010f:,,RN Sprint 1,,,,,,,,In Progress
+Verify that commission field is only accepting numeric value.,RN-112,10168,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:42 PM,07/Sep/21 4:04 PM,08/Sep/21 10:29 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00107:,,RN Sprint 1,,,,,,,,Done
+Verify that commission input field is enable or not,RN-111,10167,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:40 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000zz:,,RN Sprint 1,,,,,,,,Done
+Verify that payment details tab is opening or not.,RN-110,10166,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:37 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000zr:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to add the payment details of a new user.",RN-109,10165,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:34 PM,07/Sep/21 4:04 PM,09/Sep/21 5:08 AM,07/Sep/21 4:04 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-110,RN-111,RN-112,RN-113,RN-114,RN-115,RN-116,RN-117,RN-118,RN-119,RN-120,RN-121,RN-122,RN-123,RN-124,RN-125,RN-126,RN-128,RN-129,RN-130,RN-131,RN-132,RN-133,RN-134,RN-135,RN-136,RN-137,RN-138,RN-139,RN-140,RN-141,RN-142,RN-143,RN-144,RN-145,RN-146,RN-147,RN-148,RN-149,RN-150,RN-151,RN-152,RN-205,,,,,,,,,,,,,,,,{},,RN-1,,,,,0|i000zj:,,RN Sprint 1,,,,,,,,Done
+Verify that region/state dropdown field is showing proper error message,RN-108,10164,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:11 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000zb:,,RN Sprint 1,,,,,,,,Done
+Verify that region/state dropdown field is displaying the option selected,RN-107,10163,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:09 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000z3:,,RN Sprint 1,,,,,,,,Done
+Verify that region/state dropdown field is having proper options,RN-106,10162,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:07 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000yv:,,RN Sprint 1,,,,,,,,Done
+Verify that region/state dropdown field is enable or not,RN-105,10161,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:05 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000yn:,,RN Sprint 1,,,,,,,,Done
+Verify that country dropdown field is displaying the option selected,RN-104,10160,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:03 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000yf:,,RN Sprint 1,,,,,,,,Done
+Verify that country dropdown field is having proper options or not,RN-103,10159,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 6:00 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-102,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000y7:,,RN Sprint 1,,,,,,,,Done
+Verify that country dropdown field is enable or not,RN-102,10158,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 5:58 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-101,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000xz:,,RN Sprint 1,,,,,,,,Done
+Verify that postcode field is having 5 or 6 digit number.,RN-101,10157,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 5:49 PM,08/Sep/21 1:32 PM,08/Sep/21 1:32 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-100,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000xr:,,RN Sprint 1,,,,,,,,In Progress
+Verify that postcode field with alphabets and special characters.,RN-100,10156,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 5:45 PM,08/Sep/21 1:31 PM,08/Sep/21 1:31 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-99,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000xj:,,RN Sprint 1,,,,,,,,In Progress
+Verify that postcode field with numeric data.,RN-99,10155,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 5:43 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-98,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000xb:,,RN Sprint 1,,,,,,,,Done
+Verify that postcode field is enable or not,RN-98,10154,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 5:40 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-97,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000x3:,,RN Sprint 1,,,,,,,,Done
+Verify the city field is accepting character length from 2 to 128,RN-97,10153,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:53 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-96,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000wv:,,RN Sprint 1,,,,,,,,Done
+Verify the city field is not accepting only blank spaces,RN-96,10152,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:45 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-95,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000wn:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the first city input field is blank,RN-95,10151,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:40 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-94,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000wf:,,RN Sprint 1,,,,,,,,Done
+Verify the city field with special characters,RN-94,10150,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:38 PM,08/Sep/21 1:32 PM,08/Sep/21 1:32 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-93,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000w7:,,RN Sprint 1,,,,,,,,In Progress
+Verify the city field with alphanumeric characters,RN-93,10149,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:36 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-92,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000vz:,,RN Sprint 1,,,,,,,,Done
+Verify the city field with null value,RN-92,10148,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:31 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-91,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000vr:,,RN Sprint 1,,,,,,,,Done
+Verify the city field is enable or not,RN-91,10147,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:29 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-90,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000vj:,,RN Sprint 1,,,,,,,,Done
+Verify the address 2 field is accepting special characters or not,RN-90,10146,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:24 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-89,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000vb:,,RN Sprint 1,,,,,,,,Done
+Verify the address 2 field is accepting alphanumeric character or not,RN-89,10145,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:21 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-88,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000v3:,,RN Sprint 1,,,,,,,,Done
+Verify the address 2 field is enable or not.,RN-88,10144,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:20 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-86,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000uv:,,RN Sprint 1,,,,,,,,Done
+Verify that address 1 field is having 3 - 120 characters.,RN-87,10143,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:16 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-86,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000un:,,RN Sprint 1,,,,,,,,Done
+Verify that address 1 field with spaces,RN-86,10142,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:13 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-85,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000uf:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the address 1 input field is blank,RN-85,10141,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:07 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-84,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000u7:,,RN Sprint 1,,,,,,,,Done
+Verify the address 1 field with special characters,RN-84,10140,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 2:02 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-83,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000tz:,,RN Sprint 1,,,,,,,,Done
+Verify the address 1 field with alphanumeric characters,RN-83,10139,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 1:59 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-82,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000tr:,,RN Sprint 1,,,,,,,,Done
+Verify the address 1 field with null value,RN-82,10138,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 1:58 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-81,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000tj:,,RN Sprint 1,,,,,,,,Done
+Verify the address 1 field is enable or not.,RN-81,10137,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 1:56 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-80,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000tb:,,RN Sprint 1,,,,,,,,Done
+Verify the website field is having proper url.,RN-80,10136,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 1:49 PM,08/Sep/21 1:31 PM,08/Sep/21 1:31 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-79,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000t3:,,RN Sprint 1,,,,,,,,In Progress
+Verify the website field is enable or not,RN-79,10135,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,04/Sep/21 1:46 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-78,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000sv:,,RN Sprint 1,,,,,,,,Done
+Verify the company field is enable or not,RN-78,10134,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:12 PM,07/Sep/21 3:52 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-77,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000sn:,,RN Sprint 1,,,,,,,,Done
+Verify the company field with special characters.,RN-77,10133,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:05 PM,07/Sep/21 3:53 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-76,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000sj:,,RN Sprint 1,,,,,,,,Done
+Verify the company field with alphanumeric value,RN-76,10132,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:00 PM,07/Sep/21 3:55 PM,09/Sep/21 5:08 AM,07/Sep/21 3:50 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000sh:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to add the affiliates address of a new user ",RN-75,10131,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 6:57 PM,07/Sep/21 3:55 PM,09/Sep/21 5:08 AM,07/Sep/21 3:52 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-103,RN-104,RN-105,RN-106,RN-107,RN-108,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000sg:,,RN Sprint 1,,,,,,,,Done
+Verify the Status dropdown field is not left blank,RN-74,10130,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:12 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000sf:,,RN Sprint 1,,,,,,,,Done
+Verify the Status dropdown field options are clickable or not,RN-73,10129,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:10 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000s7:,,RN Sprint 1,,,,,,,,Done
+Verify the Status dropdown field is clickable or not,RN-72,10128,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:08 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000rz:,,RN Sprint 1,,,,,,,,Done
+Verify the Confirm Password field value is not taking any null value,RN-71,10127,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:06 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000rr:,,RN Sprint 1,,,,,,,,Done
+Verify the Confirm Password field value is matching with the Password field,RN-70,10126,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:03 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-69,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000rj:,,RN Sprint 1,,,,,,,,Done
+Verify the Confirm Password field is accepting special characters.,RN-69,10125,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:02 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-68,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000rb:,,RN Sprint 1,,,,,,,,Done
+Verify the Confirm Password field is accepting alphanumeric characters.,RN-68,10124,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:00 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000r3:,,RN Sprint 1,,,,,,,,Done
+Verify the Confirm Password field is enable or not,RN-67,10123,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 4:57 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000qv:,,RN Sprint 1,,,,,,,,Done
+Verify the Password field with blank space in the password field,RN-66,10122,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 4:18 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000qn:,,RN Sprint 1,,,,,,,,Done
+Verify the Password length within 4 to 20 characters,RN-65,10121,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 4:14 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-64,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000qf:,,RN Sprint 1,,,,,,,,Done
+Verify the Password field with special characters,RN-64,10120,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 4:12 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000q7:,,RN Sprint 1,,,,,,,,Done
+Verify the Password field with alphanumeric value,RN-63,10119,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 4:08 PM,07/Sep/21 3:30 PM,09/Sep/21 5:08 AM,07/Sep/21 3:30 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000pz:,,RN Sprint 1,,,,,,,,Done
+Verify the Password field with null value,RN-62,10118,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 3:59 PM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000pr:,,RN Sprint 1,,,,,,,,Done
+Verify the Tracking Code field with  null value,RN-61,10117,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 3:55 PM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000pj:,,RN Sprint 1,,,,,,,,Done
+Verify the Tracking Code field with alphanumeric characters,RN-60,10116,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 3:53 PM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000pb:,,RN Sprint 1,,,,,,,,Done
+Verify the Tracking Code field is enable or not,RN-59,10115,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 3:50 PM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-58,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000p3:,,RN Sprint 1,,,,,,,,Done
+Verify the Fax field  with special characters,RN-58,10114,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 11:09 AM,08/Sep/21 1:32 PM,08/Sep/21 1:32 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000ov:,,RN Sprint 1,,,,,,,,In Progress
+Verify the Fax field  with alphabetic characters,RN-57,10113,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 11:06 AM,08/Sep/21 1:31 PM,08/Sep/21 1:31 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000on:,,RN Sprint 1,,,,,,,,In Progress
+Verify the Fax field with 11 digits,RN-56,10112,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 11:03 AM,08/Sep/21 1:31 PM,08/Sep/21 1:31 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000of:,,RN Sprint 1,,,,,,,,In Progress
+Verify the Fax field  with only numeric values,RN-55,10111,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 11:00 AM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000o7:,,RN Sprint 1,,,,,,,,Done
+Verify the Fax field is enable or not,RN-54,10110,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 10:58 AM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000nz:,,RN Sprint 1,,,,,,,,Done
+Verify the Telephone field with blank spaces,RN-53,10109,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 10:37 AM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000nr:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the Telephone input field is blank,RN-52,10108,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 10:29 AM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000nj:,,RN Sprint 1,,,,,,,,Done
+Verify the Telephone input field with null value,RN-51,10107,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 10:25 AM,07/Sep/21 3:29 PM,09/Sep/21 5:08 AM,07/Sep/21 3:29 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000nb:,,RN Sprint 1,,,,,,,,Done
+Verify the Telephone field with special characters,RN-50,10106,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 10:20 AM,08/Sep/21 1:28 PM,08/Sep/21 1:28 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000n3:,,RN Sprint 1,,,,,,,,In Progress
+Verify the Telephone field with alphabetic characters,RN-49,10105,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 10:17 AM,08/Sep/21 1:31 PM,08/Sep/21 1:31 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000mv:,,RN Sprint 1,,,,,,,,In Progress
+Verify the length of the telephone number within 10 - 13 digits,RN-48,10104,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:56 AM,08/Sep/21 1:36 PM,08/Sep/21 1:36 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000mn:,,RN Sprint 1,,,,,,,,In Progress
+Verify the Telephone input field with numeric value,RN-47,10103,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:50 AM,07/Sep/21 3:28 PM,09/Sep/21 5:08 AM,07/Sep/21 3:28 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000mf:,,RN Sprint 1,,,,,,,,Done
+Verify the Telephone input field is enable or not,RN-46,10102,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:47 AM,07/Sep/21 3:28 PM,09/Sep/21 5:08 AM,07/Sep/21 3:28 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000m7:,,RN Sprint 1,,,,,,,,Done
+Verify the email field with blank spaces,RN-45,10101,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:39 AM,07/Sep/21 3:28 PM,09/Sep/21 5:08 AM,07/Sep/21 3:28 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000lz:,,RN Sprint 1,,,,,,,,Done
+Verify the email id with alpha numeric characters,RN-44,10100,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:29 AM,07/Sep/21 3:28 PM,09/Sep/21 5:08 AM,07/Sep/21 3:28 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000lr:,,RN Sprint 1,,,,,,,,Done
+Verify the email id with only special characters,RN-43,10099,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:21 AM,08/Sep/21 1:29 PM,08/Sep/21 1:29 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000lj:,,RN Sprint 1,,,,,,,,In Progress
+Verify that proper error message is coming when the email input field is blank,RN-42,10098,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:14 AM,07/Sep/21 3:28 PM,09/Sep/21 5:08 AM,07/Sep/21 3:28 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000lb:,,RN Sprint 1,,,,,,,,Done
+Verify the email id with dot(.) symbol,RN-41,10097,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:09 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000l3:,,RN Sprint 1,,,,,,,,Done
+Verify the email id with @ symbol,RN-40,10096,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 9:06 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000kv:,,RN Sprint 1,,,,,,,,Done
+Verify the length of the email id within 3 to 75 characters,RN-39,10095,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 8:54 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000kn:,,RN Sprint 1,,,,,,,,Done
+Verify the Email input field with null value,RN-38,10094,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:27 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000kf:,,RN Sprint 1,,,,,,,,Done
+Verify the Email input field is enable or not.,RN-37,10093,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:23 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000k7:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the first name input field is blank,RN-36,10092,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:12 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000jz:,,RN Sprint 1,,,,,,,,Done
+Verify the last name input field with blank space,RN-35,10091,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:10 AM,07/Sep/21 3:27 PM,09/Sep/21 5:08 AM,07/Sep/21 3:27 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000jr:,,RN Sprint 1,,,,,,,,Done
+Verify the last name input field with special characters,RN-34,10090,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:07 AM,08/Sep/21 1:34 PM,08/Sep/21 1:34 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000jj:,,RN Sprint 1,,,,,,,,In Progress
+Verify the last name input field with null value,RN-33,10089,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:05 AM,07/Sep/21 3:26 PM,09/Sep/21 5:08 AM,07/Sep/21 3:26 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000jb:,,RN Sprint 1,,,,,,,,Done
+Verify the last name input field with more than 32 characters,RN-32,10088,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:03 AM,07/Sep/21 3:26 PM,09/Sep/21 5:08 AM,07/Sep/21 3:26 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000j3:,,RN Sprint 1,,,,,,,,Done
+Verify the last name input field with alpha numeric characters,RN-31,10087,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 7:01 AM,07/Sep/21 3:26 PM,09/Sep/21 5:08 AM,07/Sep/21 3:26 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000iv:,,RN Sprint 1,,,,,,,,Done
+Verify the last name input field is enable or not.,RN-30,10086,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 6:59 AM,07/Sep/21 3:26 PM,09/Sep/21 5:08 AM,07/Sep/21 3:26 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000in:,,RN Sprint 1,,,,,,,,Done
+Verify that proper error message is coming when the first name input field is blank,RN-29,10085,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 6:23 AM,07/Sep/21 3:26 PM,09/Sep/21 5:08 AM,07/Sep/21 3:26 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000if:,,RN Sprint 1,,,,,,,,Done
+Verify the first name input field with special characters,RN-26,10082,Test,Blocked,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 6:07 AM,08/Sep/21 1:36 PM,08/Sep/21 1:36 PM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000hr:,,RN Sprint 1,,,,,,,,In Progress
+Verify the first name input field with null value,RN-25,10081,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:56 AM,07/Sep/21 12:20 PM,09/Sep/21 5:08 AM,07/Sep/21 12:20 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000hj:,,RN Sprint 1,,,,,,,,Done
+Verify the first name input field with more than 32 characters,RN-24,10080,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:49 AM,07/Sep/21 12:19 PM,09/Sep/21 5:03 AM,07/Sep/21 12:17 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000hb:,,RN Sprint 1,,,,,,,,Done
+Verify the first name input field with alpha numeric characters,RN-23,10079,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,03/Sep/21 5:44 AM,07/Sep/21 12:17 PM,09/Sep/21 5:08 AM,07/Sep/21 12:17 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000h3:,,RN Sprint 1,,,,,,,,Done
+Verify the first name input field is enable or not.,RN-22,10078,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:54 PM,07/Sep/21 12:17 PM,09/Sep/21 5:08 AM,07/Sep/21 12:17 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000gn:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to add the Affiliate Details of a new user",RN-21,10077,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:50 PM,07/Sep/21 3:25 PM,08/Sep/21 5:52 PM,07/Sep/21 3:24 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-22,RN-23,RN-24,RN-25,RN-26,RN-29,RN-30,RN-31,RN-32,RN-33,RN-34,RN-35,RN-36,RN-37,RN-38,RN-39,RN-40,RN-41,RN-42,RN-43,RN-44,RN-45,RN-46,RN-47,RN-48,RN-49,RN-50,RN-51,RN-52,RN-53,RN-54,RN-55,RN-56,RN-57,RN-58,RN-59,RN-60,RN-61,RN-62,RN-63,RN-64,RN-65,RN-66,RN-67,RN-68,RN-69,RN-70,RN-71,RN-72,RN-73,RN-74,RN-208,,,,,,,{},,RN-1,,,,,0|i000gf:,,RN Sprint 1,,,,,,,,Done
+Verify the email  field is having autocomplete feature.,RN-20,10076,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:25 PM,07/Sep/21 12:17 PM,09/Sep/21 5:08 AM,07/Sep/21 12:17 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000g7:,,RN Sprint 1,,,,,,,,Done
+Verify that proper result set is coming after clicking the filter button.,RN-19,10075,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:18 PM,07/Sep/21 12:16 PM,09/Sep/21 5:08 AM,07/Sep/21 12:16 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000fz:,,RN Sprint 1,,,,,,,,Done
+Verify the filter button is clickable or not,RN-18,10074,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:14 PM,07/Sep/21 3:55 PM,09/Sep/21 5:08 AM,07/Sep/21 12:15 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000fx:,,RN Sprint 1,,,,,,,,Done
+Verify the approved dropdown options are selectable,RN-17,10073,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:10 PM,07/Sep/21 12:15 PM,09/Sep/21 5:08 AM,07/Sep/21 12:15 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000fv:,,RN Sprint 1,,,,,,,,Done
+Verify the approved dropdown field have appropriate options.,RN-16,10072,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:07 PM,07/Sep/21 3:50 PM,09/Sep/21 5:08 AM,07/Sep/21 3:50 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000fb:,,RN Sprint 1,,,,,,,,Done
+Verify the approved dropdown field is enabled or not,RN-15,10071,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 6:01 PM,07/Sep/21 10:16 AM,09/Sep/21 5:08 AM,07/Sep/21 10:16 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000f3:,,RN Sprint 1,,,,,,,,Done
+Verify the email field has a @ symbol,RN-13,10069,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:49 PM,07/Sep/21 10:16 AM,09/Sep/21 5:08 AM,07/Sep/21 10:16 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000en:,,RN Sprint 1,,,,,,,,Done
+Verify the email field is enable or not.,RN-12,10068,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:37 PM,07/Sep/21 10:16 AM,09/Sep/21 5:08 AM,07/Sep/21 10:16 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000ef:,,RN Sprint 1,,,,,,,,Done
+Verify the format of the date in the date field.,RN-11,10067,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:33 PM,07/Sep/21 10:16 AM,09/Sep/21 5:08 AM,07/Sep/21 10:16 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000e7:,,RN Sprint 1,,,,,,,,Done
+Verify the date icon in the date field is clickable or not.,RN-10,10066,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:30 PM,07/Sep/21 10:16 AM,09/Sep/21 5:08 AM,07/Sep/21 10:16 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000dz:,,RN Sprint 1,,,,,,,,Done
+Verify the date field is enabled.,RN-9,10065,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:28 PM,07/Sep/21 10:15 AM,09/Sep/21 5:08 AM,07/Sep/21 10:15 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000dr:,,RN Sprint 1,,,,,,,,Done
+Verify the Status dropdown options are selectable.,RN-8,10064,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:25 PM,07/Sep/21 10:15 AM,09/Sep/21 5:08 AM,07/Sep/21 10:15 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000dj:,,RN Sprint 1,,,,,,,,Done
+Verify the Status dropdown field have appropriate options,RN-7,10063,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:21 PM,07/Sep/21 10:15 AM,09/Sep/21 5:08 AM,07/Sep/21 10:15 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000db:,,RN Sprint 1,,,,,,,,Done
+Verify the Status dropdown field is enabled or not,RN-6,10062,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:18 PM,07/Sep/21 10:15 AM,09/Sep/21 5:08 AM,07/Sep/21 10:15 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000d3:,,RN Sprint 1,,,,,,,,Done
+Verify the Affiliate Name field is having autocomplete feature.,RN-5,10061,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 5:14 PM,07/Sep/21 10:15 AM,09/Sep/21 5:08 AM,07/Sep/21 10:15 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,RN-3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000cv:,,RN Sprint 1,,,,,,,,Done
+Verify the Affiliate Name field is enabled.,RN-3,10059,Test,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 2:54 PM,07/Sep/21 10:15 AM,09/Sep/21 5:08 AM,07/Sep/21 10:15 AM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000cn:,,RN Sprint 1,,,,,,,,Done
+"As an admin, I want to use the filter functionality to search the specific user.",RN-2,10058,Story,Done,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,Done,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 10:58 AM,07/Sep/21 12:15 PM,09/Sep/21 5:08 AM,07/Sep/21 12:15 PM,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000cf:,,RN Sprint 1,,,,,,,,Done
+Affiliates New,RN-1,10057,Epic,In Progress,RN,RETAIL NEW,software,Ananya Ghosal,612ef794b7859000710af1c5,,Medium,,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,Ananya Ghosal,612ef794b7859000710af1c5,02/Sep/21 10:56 AM,08/Sep/21 1:26 PM,09/Sep/21 5:08 AM,,,0,,,Ananya Ghosal,612ef794b7859000710af1c5,,,,,,,,,,,,RN-75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-2,,Affiliates New,To Do,,,0|i000c7:,,RN Sprint 1,,,,,,,,In Progress
